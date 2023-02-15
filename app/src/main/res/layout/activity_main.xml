@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Quran App"></TextView>
+    <EditText
+        android:id="@+id/et_parah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Parah Number 1-30"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="50dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/et_surah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Surah Number 1-114"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="50dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_urdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urdu Translation" />
+
+    <Button
+        android:id="@+id/btn_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English Translation" />
+    <Button
+        android:id="@+id/btn_sindhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sindhi Translation" />
+    <Button
+        android:id="@+id/btn_hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hindi Translation" />
+
+    <Button
+        android:id="@+id/btn_pushto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pushto Translation" />
+
+    <Button
+        android:id="@+id/btn_repo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repository" />
+
+</LinearLayout>
